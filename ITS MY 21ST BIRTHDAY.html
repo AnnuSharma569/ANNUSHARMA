@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)http://127.0.0.1:5500/websitekasuffer/calculator/SHY/INDEX.html.HTML -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INVITATION CARD</title></head><body>\
+
+
+    <!-- A CSS OF CARD -->
+    
+<style>
+    h1 {
+    font-size: 2.5rem;
+    color: #ff4500;
+    text-align: center;
+    
+}
+h2 {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+}
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+}
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+form {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    max-width: 400px;
+    background-color: #f9f9f9;
+}
+input, textarea, button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background-color: #ff4500;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #e63900;
+}
+.cta-button {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ff4500;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+}
+.cta-button:hover {
+    background-color: #e63900;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: white;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffecd1;
+    color: #333;
+}
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+    img {
+        width: 90%;
+    }
+}
+</style>
+
+<!-- USE OF HTML  -->
+
+   <i> <h1>BIRTHDAY BASH</h1></i>
+<h2>When: December 20th, 2024</h2>
+<h2>Where: Green Meadow Park, Downtown</h2>
+
+<!-- USE OF PARAGRAPH TAG -->
+<p>
+    Join us for a magical evening under the stars to celebrate Emily's 21st birthday! 
+    Fun, food, and laughter await. Don’t miss it!
+</p>
+
+<!-- USE OF IMAGE TAG -->
+<img src="./ITS MY 21ST BIRTHDAY_files/96705a523ae4f7e414a5c59f0df64148.jpg" alt="Birthday Cake" width="300">
+
+<!-- MAKE A INQUIRY FORM -->
+<form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required=""><br><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required=""><br><br>
+    
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4"></textarea><br><br>
+    
+    <button type="submit">RSVP Now</button>
+</form>
+
+<a href="http://127.0.0.1:5500/websitekasuffer/calculator/SHY/INDEX.html.HTML#" class="cta-button">Learn More</a>
+<div class="container">
+    <!-- Event content here -->
+</div>
+
+<link href="./ITS MY 21ST BIRTHDAY_files/css2" rel="stylesheet">
+
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
